@@ -1,0 +1,46 @@
+
+@media (min-width: 768px){
+.navbar {
+    border-radius: 4px;
+}
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+
+    margin-top: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 20px
+}
+
+@media screen and (min-width: 768px){ 
+.container .jumbotron, .container-fluid .jumbotron {
+
+    margin-top: 80px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 20px
+}
+}
+
+.boxy {
+    background: #b3ddff;
+    border: 2px solid black;
+
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-toggle collapsed{
+
+    border: 4px solid white;
+}
